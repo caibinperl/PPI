@@ -3,8 +3,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from sklearn.metrics import average_precision_score
-from torch.autograd import Variable
+from sklearn.metrics import confusion_matrix
 from torch.nn.utils.rnn import pad_sequence
 from torch.utils.data import Dataset
 
@@ -29,7 +28,7 @@ class PairedDataset(Dataset):
         x2 = self.loader(self.ids2[i])
         return x1, x2, torch.as_tensor(self.labels[i]).float()
 
-    def loader(self, id, max_len=1800):
+    def loader(self, id, max_len=600):
         embedding = self.embed_data[id]
         seq_len = embedding.shape[0]
         seq_dim = embedding.shape[1]
@@ -71,17 +70,14 @@ class FullyConnectedEmbed(nn.Module):
 
 
 class ContactCNN(nn.Module):
-    def __init__(self, embed_dim):
+    def __init__(self, embed_dim, hidden_dim=25, ks=7):
         super().__init__()
-
-        hidden_dim = 50
-        width = 7
 
         self.conv1 = nn.Conv2d(2 * embed_dim, hidden_dim, 1)
         self.batch_norm1 = nn.BatchNorm2d(hidden_dim)
         self.activation1 = nn.ReLU()
 
-        self.conv2 = nn.Conv2d(hidden_dim, 1, width, padding=width // 2)
+        self.conv2 = nn.Conv2d(hidden_dim, 1, ks, padding=ks // 2)
         self.batch_norm2 = nn.BatchNorm2d(1)
         self.activation2 = nn.Sigmoid()
         self.clip()
@@ -91,12 +87,12 @@ class ContactCNN(nn.Module):
         self.conv2.weight.data[:] = 0.5 * (w + w.transpose(2, 3))
 
     def forward(self, x1, x2):
-        x1 = x1.transpose(1, 2)  # b, embed_dim, m
-        x2 = x2.transpose(1, 2)  # b, embed_dim, n
+        x1 = x1.transpose(1, 2)  # b, d, m
+        x2 = x2.transpose(1, 2)  # b, d, n
 
-        dif = torch.abs(x1.unsqueeze(3) - x2.unsqueeze(2))  # b, embed_dim, m, n
+        dif = torch.abs(x1.unsqueeze(3) - x2.unsqueeze(2))  # b, d, m, n
         mul = x1.unsqueeze(3) * x2.unsqueeze(2)
-        cat = torch.cat([dif, mul], 1)  # b, 2*embed_dim, m, n
+        cat = torch.cat([dif, mul], 1)  # b, 2*d, m, n
 
         x = self.conv1(cat)
         x = self.activation1(x)
@@ -105,6 +101,7 @@ class ContactCNN(nn.Module):
         x = self.conv2(x)  # b, 1, m, n
         x = self.batch_norm2(x)
         x = self.activation2(x)
+        x = x.squeeze(1)  # b, m, n
         return x
 
 
@@ -124,14 +121,12 @@ class LogisticActivation(nn.Module):
 
 
 class ModelInteraction(nn.Module):
-    def __init__(self, embedding, contact, use_cuda):
+    def __init__(self, embedding, contact):
         super().__init__()
-        gamma_init = 0
         self.embedding = embedding
         self.contact = contact
-        self.use_cuda = use_cuda
         self.activation = LogisticActivation(x0=0.5, k=20)
-        self.gamma = nn.Parameter(torch.FloatTensor([gamma_init]))
+        self.gamma = nn.Parameter(torch.FloatTensor([0]))
         self.clip()
 
     def clip(self):
@@ -141,103 +136,63 @@ class ModelInteraction(nn.Module):
     def forward(self, x1, x2):
         x1 = self.embedding(x1)
         x2 = self.embedding(x2)
-        C = self.contact(x1, x2)  # b, 1, m, n
-        yhat = C.unsqueeze(1)  # b, m, n
+        x = self.contact(x1, x2)  # b, m, n
 
-        mu = torch.mean(yhat, dim=[1, 2]).view(-1, 1, 1)
-        sigma = torch.var(yhat, dim=[1, 2]).view(-1, 1, 1)
-        Q = torch.relu(yhat - mu - (self.gamma * sigma))
+        mu = torch.mean(x, dim=[1, 2])
+        sigma = torch.var(x, dim=[1, 2])
+        Q = torch.relu(x - mu - (self.gamma * sigma))
         phat = torch.sum(Q, dim=[1, 2]) / (torch.sum(torch.sign(Q), dim=[1, 2]) + 1)
-        # phat (b,)
-        phat = self.activation(phat)
-        c_map = torch.mean(yhat, dim=[1, 2])
-        return c_map, phat
+        phat = self.activation(phat).squeeze()  # b
+        return phat
 
 
-def predict_cmap_interaction(model, x1, x2, use_cuda):
-    if use_cuda:
-        x1 = x1.cuda()
-        x2 = x2.cuda()
+def predict_interaction(model, x1, x2, use_cuda):
+    b = x1.shape[0]
 
-    c_map, p_hat = model(x1, x2)
-    return c_map, p_hat
+    phats = []
+    for i in range(b):
+        z1 = x1[i:i + 1]
+        z2 = x2[i:i + 1]
+        if use_cuda:
+            z1 = z1.cuda()
+            z2 = z2.cuda()
+
+        phat = model(z1, z2)
+        phats.append(phat)
+
+    phats = torch.stack(phats)
+    return phats
 
 
 def interaction_grad(model, x1, x2, y, use_cuda=True):
-    accuracy_weight = 0.35
-
-    c_map, p_hat = predict_cmap_interaction(model, x1, x2, use_cuda)
-
+    y_pred = predict_interaction(model, x1, x2, use_cuda)
     if use_cuda:
         y = y.cuda()
-    y = Variable(y)
-
-    p_hat = p_hat.float()
-    bce_loss = F.binary_cross_entropy(p_hat.float(), y.float())
-    accuracy_loss = bce_loss
-    representation_loss = c_map
-    loss = (accuracy_weight * accuracy_loss) + ((1 - accuracy_weight) * representation_loss)
-
-    # Backprop Loss
+    loss = F.binary_cross_entropy(y_pred.float(), y.float())
     loss.backward()
-
     if use_cuda:
-        y = y.cpu()
-        p_hat = p_hat.cpu()
-
-    b = p_hat.shape[0]
-    with torch.no_grad():
-        guess_cutoff = 0.5
-        p_hat = p_hat.float()
-        p_guess = (guess_cutoff * torch.ones(b) < p_hat).float()
-        y = y.float()
-        correct = torch.sum(p_guess == y).item()
-        mse = torch.mean((y.float() - p_hat) ** 2).item()
-
-    return loss, correct, mse, b
+        y_pred = y_pred.cpu()
+    return loss.item(), y_pred
 
 
-def predict_interaction(model, n0, n1, use_cuda):
-    _, p_hat = predict_cmap_interaction(model, n0, n1, use_cuda)
-    return p_hat
-
-
-def interaction_eval(model, val_loader, use_cuda):
-    p_hat = []
-    true_y = []
-
-    for n0, n1, y in val_loader:
-        ph = predict_interaction(model, n0, n1, use_cuda)
-        p_hat.append(ph)
-        true_y.append(y)
-
-    y = torch.cat(true_y, 0)
-    p_hat = torch.cat(p_hat, 0)
-
+def interaction_eval(model, x1, x2, y, use_cuda=True):
+    y_pred = predict_interaction(model, x1, x2, use_cuda)
     if use_cuda:
-        y.cuda()
-        p_hat = torch.Tensor([x.cuda() for x in p_hat])
-        p_hat.cuda()
+        y = y.cuda()
+    loss = F.binary_cross_entropy(y_pred.float(), y.float())
+    if use_cuda:
+        y_pred = y_pred.cpu()
+    return loss.item(), y_pred
 
-    loss = F.binary_cross_entropy(p_hat.float(), y.float()).item()
-    b = y.shape[0]
 
-    with torch.no_grad():
-        guess_cutoff = torch.Tensor([0.5]).float()
-        p_hat = p_hat.float()
-        y = y.float()
-        p_guess = (guess_cutoff * torch.ones(b) < p_hat).float()
-        correct = torch.sum(p_guess == y).item()
-        mse = torch.mean((y.float() - p_hat) ** 2).item()
-
-        tp = torch.sum(y * p_hat).item()
-        pr = tp / torch.sum(p_hat).item()
-        re = tp / torch.sum(y).item()
-        f1 = 2 * pr * re / (pr + re)
-
-    y = y.cpu().numpy()
-    p_hat = p_hat.data.cpu().numpy()
-
-    aupr = average_precision_score(y, p_hat)
-
-    return loss, correct, mse, pr, re, f1, aupr
+def calculate_metrics(labels, phats):
+    labels = np.array(labels)
+    phats = np.array(phats)
+    phats[phats >= 0.5] = 1
+    phats[phats < 0.5] = 0
+    tn, fp, fn, tp = confusion_matrix(labels, phats).ravel()
+    accuracy = (tp + tn) / (tp + tn + fp + fn)
+    recall = tp / (tp + fn)
+    precision = tp / (tp + fp)
+    fpr = fp / (fp + tn)
+    return accuracy, recall, precision, fpr
