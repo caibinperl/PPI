@@ -173,7 +173,7 @@ class PairedDataset(Dataset):
         x2 = self.loader(self.ids2[i])
         return x1, x2, torch.as_tensor(self.labels[i]).float()
 
-    def loader(self, id, max_len=2000):
+    def loader(self, id, max_len=1500):
         embedding = self.embed_data[id]
         seq_len = embedding.shape[0]
         seq_dim = embedding.shape[1]
