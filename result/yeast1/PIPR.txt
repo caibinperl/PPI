@@ -1,0 +1,236 @@
+Kfold: ======================== 1 ========================
+Epoch: 1 -- Loss: 0.7115, Val_loss: 0.6984, Accuracy: 0.4942, Precision: 0.4942, Recall: 1.0000, F1: 0.6615, ROC AUC: 0.5000, PR AUC: 0.4942
+Epoch: 2 -- Loss: 0.7049, Val_loss: 0.7028, Accuracy: 0.4960, Precision: 0.4949, Recall: 0.9593, F1: 0.6529, ROC AUC: 0.5013, PR AUC: 0.4948
+Epoch: 3 -- Loss: 0.6987, Val_loss: 0.6954, Accuracy: 0.5112, Precision: 0.5036, Recall: 0.7514, F1: 0.6030, ROC AUC: 0.5139, PR AUC: 0.5013
+Epoch: 4 -- Loss: 0.6971, Val_loss: 0.6943, Accuracy: 0.5089, Precision: 0.5026, Recall: 0.6139, F1: 0.5527, ROC AUC: 0.5101, PR AUC: 0.4993
+Epoch: 5 -- Loss: 0.6963, Val_loss: 0.6961, Accuracy: 0.5107, Precision: 0.5037, Recall: 0.6826, F1: 0.5797, ROC AUC: 0.5127, PR AUC: 0.5007
+Epoch: 6 -- Loss: 0.6940, Val_loss: 0.6923, Accuracy: 0.5237, Precision: 0.5365, Recall: 0.2658, F1: 0.3555, ROC AUC: 0.5207, PR AUC: 0.5054
+Epoch: 7 -- Loss: 0.6943, Val_loss: 0.6944, Accuracy: 0.5273, Precision: 0.5224, Recall: 0.5054, F1: 0.5138, ROC AUC: 0.5270, PR AUC: 0.5085
+Epoch: 8 -- Loss: 0.6897, Val_loss: 0.6854, Accuracy: 0.5550, Precision: 0.5506, Recall: 0.5407, F1: 0.5456, ROC AUC: 0.5548, PR AUC: 0.5247
+Epoch: 9 -- Loss: 0.6818, Val_loss: 0.6919, Accuracy: 0.5433, Precision: 0.5442, Recall: 0.4675, F1: 0.5029, ROC AUC: 0.5425, PR AUC: 0.5176
+Epoch: 10 -- Loss: 0.6795, Val_loss: 0.6760, Accuracy: 0.5670, Precision: 0.5488, Recall: 0.6962, F1: 0.6138, ROC AUC: 0.5685, PR AUC: 0.5322
+Epoch: 11 -- Loss: 0.6680, Val_loss: 0.6704, Accuracy: 0.5702, Precision: 0.5492, Recall: 0.7260, F1: 0.6254, ROC AUC: 0.5719, PR AUC: 0.5342
+Epoch: 12 -- Loss: 0.6690, Val_loss: 0.6705, Accuracy: 0.5719, Precision: 0.5949, Recall: 0.4195, F1: 0.4920, ROC AUC: 0.5702, PR AUC: 0.5364
+Epoch: 13 -- Loss: 0.6590, Val_loss: 0.6624, Accuracy: 0.5880, Precision: 0.5546, Recall: 0.8445, F1: 0.6695, ROC AUC: 0.5910, PR AUC: 0.5452
+Epoch: 14 -- Loss: 0.6467, Val_loss: 0.6473, Accuracy: 0.6010, Precision: 0.5998, Recall: 0.5787, F1: 0.5890, ROC AUC: 0.6007, PR AUC: 0.5553
+Epoch: 15 -- Loss: 0.6304, Val_loss: 0.6378, Accuracy: 0.6229, Precision: 0.5769, Recall: 0.8888, F1: 0.6996, ROC AUC: 0.6259, PR AUC: 0.5677
+Epoch: 16 -- Loss: 0.6026, Val_loss: 0.6278, Accuracy: 0.6385, Precision: 0.6197, Recall: 0.6953, F1: 0.6553, ROC AUC: 0.6392, PR AUC: 0.5814
+Epoch: 17 -- Loss: 0.5806, Val_loss: 0.5993, Accuracy: 0.6778, Precision: 0.6241, Recall: 0.8752, F1: 0.7286, ROC AUC: 0.6801, PR AUC: 0.6079
+Epoch: 18 -- Loss: 0.5260, Val_loss: 0.5367, Accuracy: 0.7198, Precision: 0.7374, Recall: 0.6727, F1: 0.7035, ROC AUC: 0.7193, PR AUC: 0.6578
+Epoch: 19 -- Loss: 0.4564, Val_loss: 0.4665, Accuracy: 0.7891, Precision: 0.7696, Recall: 0.8183, F1: 0.7932, ROC AUC: 0.7894, PR AUC: 0.7195
+Epoch: 20 -- Loss: 0.3894, Val_loss: 0.3841, Accuracy: 0.8405, Precision: 0.8204, Recall: 0.8671, F1: 0.8431, ROC AUC: 0.8408, PR AUC: 0.7770
+Epoch: 21 -- Loss: 0.3209, Val_loss: 0.3821, Accuracy: 0.8289, Precision: 0.8908, Recall: 0.7450, F1: 0.8114, ROC AUC: 0.8279, PR AUC: 0.7897
+Epoch: 22 -- Loss: 0.2665, Val_loss: 0.2832, Accuracy: 0.8870, Precision: 0.9312, Recall: 0.8327, F1: 0.8792, ROC AUC: 0.8863, PR AUC: 0.8581
+Epoch: 23 -- Loss: 0.2110, Val_loss: 0.2618, Accuracy: 0.8825, Precision: 0.8539, Recall: 0.9195, F1: 0.8855, ROC AUC: 0.8829, PR AUC: 0.8250
+Epoch: 24 -- Loss: 0.1519, Val_loss: 0.1326, Accuracy: 0.9468, Precision: 0.9540, Recall: 0.9376, F1: 0.9457, ROC AUC: 0.9467, PR AUC: 0.9253
+Epoch: 25 -- Loss: 0.1223, Val_loss: 0.2070, Accuracy: 0.9160, Precision: 0.9572, Recall: 0.8689, F1: 0.9109, ROC AUC: 0.9155, PR AUC: 0.8965
+Epoch: 26 -- Loss: 0.1367, Val_loss: 0.1587, Accuracy: 0.9401, Precision: 0.9467, Recall: 0.9313, F1: 0.9389, ROC AUC: 0.9400, PR AUC: 0.9156
+Epoch: 27 -- Loss: 0.1110, Val_loss: 0.1720, Accuracy: 0.9343, Precision: 0.9225, Recall: 0.9467, F1: 0.9344, ROC AUC: 0.9345, PR AUC: 0.8996
+Epoch: 28 -- Loss: 0.1573, Val_loss: 0.1185, Accuracy: 0.9535, Precision: 0.9402, Recall: 0.9675, F1: 0.9537, ROC AUC: 0.9537, PR AUC: 0.9257
+Epoch: 29 -- Loss: 0.0853, Val_loss: 0.0950, Accuracy: 0.9611, Precision: 0.9521, Recall: 0.9702, F1: 0.9610, ROC AUC: 0.9612, PR AUC: 0.9384
+Epoch: 30 -- Loss: 0.0724, Val_loss: 0.0922, Accuracy: 0.9629, Precision: 0.9646, Recall: 0.9602, F1: 0.9624, ROC AUC: 0.9629, PR AUC: 0.9459
+Epoch: 31 -- Loss: 0.0710, Val_loss: 0.0880, Accuracy: 0.9611, Precision: 0.9497, Recall: 0.9729, F1: 0.9611, ROC AUC: 0.9613, PR AUC: 0.9373
+Epoch: 32 -- Loss: 0.0567, Val_loss: 0.0895, Accuracy: 0.9647, Precision: 0.9698, Recall: 0.9584, F1: 0.9641, ROC AUC: 0.9646, PR AUC: 0.9500
+Epoch: 33 -- Loss: 0.0668, Val_loss: 0.1134, Accuracy: 0.9602, Precision: 0.9610, Recall: 0.9584, F1: 0.9597, ROC AUC: 0.9602, PR AUC: 0.9416
+Epoch: 34 -- Loss: 0.0870, Val_loss: 0.2493, Accuracy: 0.9026, Precision: 0.9458, Recall: 0.8517, F1: 0.8963, ROC AUC: 0.9020, PR AUC: 0.8788
+Epoch: 35 -- Loss: 0.1272, Val_loss: 0.1108, Accuracy: 0.9598, Precision: 0.9610, Recall: 0.9575, F1: 0.9592, ROC AUC: 0.9598, PR AUC: 0.9411
+Epoch: 36 -- Loss: 0.0588, Val_loss: 0.0961, Accuracy: 0.9643, Precision: 0.9540, Recall: 0.9747, F1: 0.9642, ROC AUC: 0.9644, PR AUC: 0.9423
+Epoch: 37 -- Loss: 0.0514, Val_loss: 0.1176, Accuracy: 0.9544, Precision: 0.9514, Recall: 0.9566, F1: 0.9540, ROC AUC: 0.9544, PR AUC: 0.9316
+Epoch: 38 -- Loss: 0.0655, Val_loss: 0.1230, Accuracy: 0.9571, Precision: 0.9493, Recall: 0.9647, F1: 0.9570, ROC AUC: 0.9572, PR AUC: 0.9332
+Epoch: 39 -- Loss: 0.0492, Val_loss: 0.0918, Accuracy: 0.9674, Precision: 0.9616, Recall: 0.9729, F1: 0.9672, ROC AUC: 0.9674, PR AUC: 0.9489
+Epoch: 40 -- Loss: 0.0416, Val_loss: 0.0947, Accuracy: 0.9660, Precision: 0.9656, Recall: 0.9656, F1: 0.9656, ROC AUC: 0.9660, PR AUC: 0.9494
+Epoch: 41 -- Loss: 0.0400, Val_loss: 0.1051, Accuracy: 0.9656, Precision: 0.9573, Recall: 0.9738, F1: 0.9655, ROC AUC: 0.9657, PR AUC: 0.9452
+Epoch: 42 -- Loss: 0.0388, Val_loss: 0.1332, Accuracy: 0.9634, Precision: 0.9604, Recall: 0.9656, F1: 0.9630, ROC AUC: 0.9634, PR AUC: 0.9444
+Epoch: 43 -- Loss: 0.0683, Val_loss: 0.1244, Accuracy: 0.9620, Precision: 0.9612, Recall: 0.9620, F1: 0.9616, ROC AUC: 0.9620, PR AUC: 0.9434
+Epoch: 44 -- Loss: 0.0827, Val_loss: 0.1298, Accuracy: 0.9593, Precision: 0.9560, Recall: 0.9620, F1: 0.9590, ROC AUC: 0.9594, PR AUC: 0.9384
+Epoch: 45 -- Loss: 0.0514, Val_loss: 0.1112, Accuracy: 0.9683, Precision: 0.9600, Recall: 0.9765, F1: 0.9682, ROC AUC: 0.9684, PR AUC: 0.9490
+Epoch: 46 -- Loss: 0.0357, Val_loss: 0.1096, Accuracy: 0.9687, Precision: 0.9667, Recall: 0.9702, F1: 0.9684, ROC AUC: 0.9687, PR AUC: 0.9526
+Epoch: 47 -- Loss: 0.0296, Val_loss: 0.1138, Accuracy: 0.9678, Precision: 0.9633, Recall: 0.9720, F1: 0.9676, ROC AUC: 0.9679, PR AUC: 0.9501
+Epoch: 48 -- Loss: 0.0252, Val_loss: 0.1116, Accuracy: 0.9687, Precision: 0.9718, Recall: 0.9647, F1: 0.9682, ROC AUC: 0.9687, PR AUC: 0.9549
+Epoch: 49 -- Loss: 0.0240, Val_loss: 0.1267, Accuracy: 0.9678, Precision: 0.9726, Recall: 0.9620, F1: 0.9673, ROC AUC: 0.9678, PR AUC: 0.9544
+Epoch: 50 -- Loss: 0.0399, Val_loss: 0.1632, Accuracy: 0.9558, Precision: 0.9421, Recall: 0.9702, F1: 0.9559, ROC AUC: 0.9559, PR AUC: 0.9287
+Accuracy: 0.9558, Precision: 0.9421, Recall: 0.9702, F1: 0.9559, ROC AUC: 0.9559, PR AUC: 0.9287
+Kfold: ======================== 2 ========================
+Epoch: 1 -- Loss: 0.7117, Val_loss: 0.6941, Accuracy: 0.4973, Precision: 0.4975, Recall: 0.9982, F1: 0.6641, ROC AUC: 0.4995, PR AUC: 0.4975
+Epoch: 2 -- Loss: 0.7041, Val_loss: 0.7088, Accuracy: 0.4955, Precision: 0.4966, Recall: 0.9937, F1: 0.6623, ROC AUC: 0.4977, PR AUC: 0.4966
+Epoch: 3 -- Loss: 0.7025, Val_loss: 0.6897, Accuracy: 0.5411, Precision: 0.5431, Recall: 0.4919, F1: 0.5163, ROC AUC: 0.5409, PR AUC: 0.5201
+Epoch: 4 -- Loss: 0.6971, Val_loss: 0.6923, Accuracy: 0.5192, Precision: 0.5107, Recall: 0.8178, F1: 0.6287, ROC AUC: 0.5205, PR AUC: 0.5083
+Epoch: 5 -- Loss: 0.6952, Val_loss: 0.6911, Accuracy: 0.5380, Precision: 0.5265, Recall: 0.7145, F1: 0.6062, ROC AUC: 0.5388, PR AUC: 0.5183
+Epoch: 6 -- Loss: 0.6947, Val_loss: 0.6905, Accuracy: 0.5438, Precision: 0.5326, Recall: 0.6822, F1: 0.5982, ROC AUC: 0.5444, PR AUC: 0.5215
+Epoch: 7 -- Loss: 0.6931, Val_loss: 0.6908, Accuracy: 0.5407, Precision: 0.5282, Recall: 0.7235, F1: 0.6106, ROC AUC: 0.5415, PR AUC: 0.5198
+Epoch: 8 -- Loss: 0.6913, Val_loss: 0.6906, Accuracy: 0.5509, Precision: 0.5336, Recall: 0.7774, F1: 0.6328, ROC AUC: 0.5519, PR AUC: 0.5256
+Epoch: 9 -- Loss: 0.6860, Val_loss: 0.6984, Accuracy: 0.5067, Precision: 0.5038, Recall: 0.5987, F1: 0.5472, ROC AUC: 0.5071, PR AUC: 0.5014
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch: 10 -- Loss: 0.6775, Val_loss: 1.0286, Accuracy: 0.5022, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, ROC AUC: 0.5000, PR AUC: 0.4978
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch: 11 -- Loss: 0.6618, Val_loss: 7.7982, Accuracy: 0.5022, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, ROC AUC: 0.5000, PR AUC: 0.4978
+Epoch: 12 -- Loss: 0.6172, Val_loss: 2.3699, Accuracy: 0.4978, Precision: 0.4978, Recall: 1.0000, F1: 0.6647, ROC AUC: 0.5000, PR AUC: 0.4978
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch: 13 -- Loss: 0.5537, Val_loss: 1.8372, Accuracy: 0.5022, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, ROC AUC: 0.5000, PR AUC: 0.4978
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch: 14 -- Loss: 0.4917, Val_loss: 1.9369, Accuracy: 0.5022, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, ROC AUC: 0.5000, PR AUC: 0.4978
+Epoch: 15 -- Loss: 0.4322, Val_loss: 7.7221, Accuracy: 0.4978, Precision: 0.4978, Recall: 1.0000, F1: 0.6647, ROC AUC: 0.5000, PR AUC: 0.4978
+Epoch: 16 -- Loss: 0.3733, Val_loss: 1.6798, Accuracy: 0.4978, Precision: 0.4978, Recall: 0.9973, F1: 0.6641, ROC AUC: 0.5000, PR AUC: 0.4978
+Epoch: 17 -- Loss: 0.3018, Val_loss: 15.1999, Accuracy: 0.4978, Precision: 0.4978, Recall: 1.0000, F1: 0.6647, ROC AUC: 0.5000, PR AUC: 0.4978
+Epoch: 18 -- Loss: 0.3751, Val_loss: 0.8236, Accuracy: 0.5259, Precision: 0.5126, Recall: 0.9641, F1: 0.6694, ROC AUC: 0.5279, PR AUC: 0.5121
+Epoch: 19 -- Loss: 0.2828, Val_loss: 0.5482, Accuracy: 0.7207, Precision: 0.6508, Recall: 0.9470, F1: 0.7715, ROC AUC: 0.7217, PR AUC: 0.6427
+Epoch: 20 -- Loss: 0.1909, Val_loss: 1.0481, Accuracy: 0.5246, Precision: 0.9310, Recall: 0.0485, F1: 0.0922, ROC AUC: 0.5225, PR AUC: 0.5188
+Epoch: 21 -- Loss: 0.1593, Val_loss: 0.3129, Accuracy: 0.9026, Precision: 0.9080, Recall: 0.8950, F1: 0.9014, ROC AUC: 0.9026, PR AUC: 0.8649
+Epoch: 22 -- Loss: 0.1494, Val_loss: 0.2648, Accuracy: 0.9138, Precision: 0.9276, Recall: 0.8968, F1: 0.9119, ROC AUC: 0.9137, PR AUC: 0.8832
+Epoch: 23 -- Loss: 0.1292, Val_loss: 1.7434, Accuracy: 0.4830, Precision: 0.4157, Recall: 0.0952, F1: 0.1549, ROC AUC: 0.4813, PR AUC: 0.4900
+Epoch: 24 -- Loss: 0.1203, Val_loss: 0.2314, Accuracy: 0.9173, Precision: 0.9329, Recall: 0.8986, F1: 0.9154, ROC AUC: 0.9173, PR AUC: 0.8888
+Epoch: 25 -- Loss: 0.1291, Val_loss: 1.2081, Accuracy: 0.6282, Precision: 0.9965, Recall: 0.2540, F1: 0.4049, ROC AUC: 0.6266, PR AUC: 0.6245
+Epoch: 26 -- Loss: 0.1187, Val_loss: 0.1732, Accuracy: 0.9388, Precision: 0.9919, Recall: 0.8842, F1: 0.9350, ROC AUC: 0.9385, PR AUC: 0.9347
+Epoch: 27 -- Loss: 0.1312, Val_loss: 0.2702, Accuracy: 0.9035, Precision: 0.9089, Recall: 0.8959, F1: 0.9024, ROC AUC: 0.9035, PR AUC: 0.8661
+Epoch: 28 -- Loss: 0.1346, Val_loss: 0.1492, Accuracy: 0.9281, Precision: 0.8827, Recall: 0.9865, F1: 0.9318, ROC AUC: 0.9283, PR AUC: 0.8775
+Epoch: 29 -- Loss: 0.1211, Val_loss: 0.4002, Accuracy: 0.7837, Precision: 0.9787, Recall: 0.5781, F1: 0.7269, ROC AUC: 0.7828, PR AUC: 0.7758
+Epoch: 30 -- Loss: 0.1115, Val_loss: 0.1599, Accuracy: 0.9348, Precision: 0.9869, Recall: 0.8806, F1: 0.9307, ROC AUC: 0.9345, PR AUC: 0.9285
+Epoch: 31 -- Loss: 0.1156, Val_loss: 0.1991, Accuracy: 0.9196, Precision: 0.8860, Recall: 0.9623, F1: 0.9225, ROC AUC: 0.9198, PR AUC: 0.8713
+Epoch: 32 -- Loss: 0.1066, Val_loss: 0.1367, Accuracy: 0.9424, Precision: 0.9862, Recall: 0.8968, F1: 0.9394, ROC AUC: 0.9422, PR AUC: 0.9358
+Epoch: 33 -- Loss: 0.1092, Val_loss: 0.2397, Accuracy: 0.9120, Precision: 0.9195, Recall: 0.9022, F1: 0.9107, ROC AUC: 0.9119, PR AUC: 0.8782
+Epoch: 34 -- Loss: 0.1096, Val_loss: 0.1690, Accuracy: 0.9419, Precision: 0.9833, Recall: 0.8986, F1: 0.9390, ROC AUC: 0.9417, PR AUC: 0.9340
+Epoch: 35 -- Loss: 0.1209, Val_loss: 0.2090, Accuracy: 0.9071, Precision: 0.9935, Recall: 0.8187, F1: 0.8976, ROC AUC: 0.9067, PR AUC: 0.9036
+Epoch: 36 -- Loss: 0.1254, Val_loss: 0.1453, Accuracy: 0.9428, Precision: 0.9872, Recall: 0.8968, F1: 0.9398, ROC AUC: 0.9426, PR AUC: 0.9366
+Epoch: 37 -- Loss: 0.1029, Val_loss: 0.3152, Accuracy: 0.8919, Precision: 0.8845, Recall: 0.9004, F1: 0.8923, ROC AUC: 0.8919, PR AUC: 0.8459
+Epoch: 38 -- Loss: 0.1049, Val_loss: 0.1755, Accuracy: 0.9374, Precision: 0.9737, Recall: 0.8986, F1: 0.9346, ROC AUC: 0.9373, PR AUC: 0.9255
+Epoch: 39 -- Loss: 0.0979, Val_loss: 0.1934, Accuracy: 0.9231, Precision: 0.8861, Recall: 0.9704, F1: 0.9263, ROC AUC: 0.9234, PR AUC: 0.8746
+Epoch: 40 -- Loss: 0.1015, Val_loss: 0.3177, Accuracy: 0.8432, Precision: 0.9935, Recall: 0.6894, F1: 0.8140, ROC AUC: 0.8425, PR AUC: 0.8396
+Epoch: 41 -- Loss: 0.0946, Val_loss: 0.2631, Accuracy: 0.8686, Precision: 0.7950, Recall: 0.9919, F1: 0.8826, ROC AUC: 0.8692, PR AUC: 0.7926
+Epoch: 42 -- Loss: 0.1013, Val_loss: 0.1282, Accuracy: 0.9321, Precision: 0.8988, Recall: 0.9731, F1: 0.9345, ROC AUC: 0.9323, PR AUC: 0.8880
+Epoch: 43 -- Loss: 0.0879, Val_loss: 0.1356, Accuracy: 0.9361, Precision: 0.9076, Recall: 0.9704, F1: 0.9380, ROC AUC: 0.9363, PR AUC: 0.8955
+Epoch: 44 -- Loss: 0.1118, Val_loss: 0.2010, Accuracy: 0.9097, Precision: 0.8602, Recall: 0.9776, F1: 0.9151, ROC AUC: 0.9100, PR AUC: 0.8521
+Epoch: 45 -- Loss: 0.1069, Val_loss: 0.4218, Accuracy: 0.9057, Precision: 0.9049, Recall: 0.9057, F1: 0.9053, ROC AUC: 0.9057, PR AUC: 0.8666
+Epoch: 46 -- Loss: 0.1053, Val_loss: 0.1729, Accuracy: 0.9366, Precision: 0.9664, Recall: 0.9039, F1: 0.9341, ROC AUC: 0.9364, PR AUC: 0.9214
+Epoch: 47 -- Loss: 0.1043, Val_loss: 0.3373, Accuracy: 0.9133, Precision: 0.9936, Recall: 0.8312, F1: 0.9052, ROC AUC: 0.9130, PR AUC: 0.9099
+Epoch: 48 -- Loss: 0.1048, Val_loss: 0.2198, Accuracy: 0.9147, Precision: 0.9925, Recall: 0.8348, F1: 0.9069, ROC AUC: 0.9143, PR AUC: 0.9108
+Epoch: 49 -- Loss: 0.0912, Val_loss: 0.1348, Accuracy: 0.9446, Precision: 0.9882, Recall: 0.8995, F1: 0.9417, ROC AUC: 0.9444, PR AUC: 0.9389
+Epoch: 50 -- Loss: 0.0975, Val_loss: 0.1589, Accuracy: 0.9290, Precision: 0.9178, Recall: 0.9417, F1: 0.9296, ROC AUC: 0.9290, PR AUC: 0.8933
+Accuracy: 0.9290, Precision: 0.9178, Recall: 0.9417, F1: 0.9296, ROC AUC: 0.9290, PR AUC: 0.8933
+Kfold: ======================== 3 ========================
+Epoch: 1 -- Loss: 0.7125, Val_loss: 0.6921, Accuracy: 0.5188, Precision: 0.5261, Recall: 0.4123, F1: 0.4623, ROC AUC: 0.5191, PR AUC: 0.5118
+Epoch: 2 -- Loss: 0.7040, Val_loss: 0.6921, Accuracy: 0.5103, Precision: 0.5272, Recall: 0.2333, F1: 0.3235, ROC AUC: 0.5113, PR AUC: 0.5077
+Epoch: 3 -- Loss: 0.7007, Val_loss: 0.6933, Accuracy: 0.5228, Precision: 0.5163, Recall: 0.7765, F1: 0.6202, ROC AUC: 0.5219, PR AUC: 0.5130
+Epoch: 4 -- Loss: 0.6968, Val_loss: 0.6943, Accuracy: 0.5098, Precision: 0.5063, Recall: 0.9359, F1: 0.6571, ROC AUC: 0.5083, PR AUC: 0.5060
+Epoch: 5 -- Loss: 0.6955, Val_loss: 0.6969, Accuracy: 0.4960, Precision: 0.3333, Recall: 0.0045, F1: 0.0088, ROC AUC: 0.4977, PR AUC: 0.5010
+Epoch: 6 -- Loss: 0.6951, Val_loss: 0.6931, Accuracy: 0.5031, Precision: 0.5089, Recall: 0.2787, F1: 0.3602, ROC AUC: 0.5039, PR AUC: 0.5038
+Epoch: 7 -- Loss: 0.6945, Val_loss: 0.6921, Accuracy: 0.5058, Precision: 0.5069, Recall: 0.5530, F1: 0.5290, ROC AUC: 0.5056, PR AUC: 0.5046
+Epoch: 8 -- Loss: 0.6942, Val_loss: 0.6919, Accuracy: 0.5080, Precision: 0.5087, Recall: 0.5726, F1: 0.5388, ROC AUC: 0.5078, PR AUC: 0.5057
+Epoch: 9 -- Loss: 0.6927, Val_loss: 0.6937, Accuracy: 0.5022, Precision: 0.5020, Recall: 0.9991, F1: 0.6683, ROC AUC: 0.5005, PR AUC: 0.5020
+Epoch: 10 -- Loss: 0.6914, Val_loss: 0.6938, Accuracy: 0.5013, Precision: 0.5016, Recall: 0.9991, F1: 0.6679, ROC AUC: 0.4996, PR AUC: 0.5016
+Epoch: 11 -- Loss: 0.6884, Val_loss: 0.7167, Accuracy: 0.5000, Precision: 0.5009, Recall: 0.9955, F1: 0.6665, ROC AUC: 0.4982, PR AUC: 0.5009
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch: 12 -- Loss: 0.6813, Val_loss: 0.7249, Accuracy: 0.4982, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, ROC AUC: 0.5000, PR AUC: 0.5018
+Epoch: 13 -- Loss: 0.6721, Val_loss: 0.6964, Accuracy: 0.5246, Precision: 0.5138, Recall: 0.9760, F1: 0.6732, ROC AUC: 0.5230, PR AUC: 0.5135
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch: 14 -- Loss: 0.6636, Val_loss: 0.9327, Accuracy: 0.4982, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, ROC AUC: 0.5000, PR AUC: 0.5018
+Epoch: 15 -- Loss: 0.6449, Val_loss: 1.9498, Accuracy: 0.5018, Precision: 0.5018, Recall: 1.0000, F1: 0.6683, ROC AUC: 0.5000, PR AUC: 0.5018
+Epoch: 16 -- Loss: 0.5808, Val_loss: 1.8728, Accuracy: 0.5018, Precision: 0.5018, Recall: 1.0000, F1: 0.6683, ROC AUC: 0.5000, PR AUC: 0.5018
+Epoch: 17 -- Loss: 0.5293, Val_loss: 0.6979, Accuracy: 0.6452, Precision: 0.5946, Recall: 0.9207, F1: 0.7226, ROC AUC: 0.6442, PR AUC: 0.5872
+Epoch: 18 -- Loss: 0.4453, Val_loss: 0.8069, Accuracy: 0.4996, Precision: 1.0000, Recall: 0.0027, F1: 0.0053, ROC AUC: 0.5013, PR AUC: 0.5031
+Epoch: 19 -- Loss: 0.3834, Val_loss: 9.1701, Accuracy: 0.5076, Precision: 0.5047, Recall: 0.9991, F1: 0.6707, ROC AUC: 0.5058, PR AUC: 0.5047
+Epoch: 20 -- Loss: 0.3022, Val_loss: 0.5842, Accuracy: 0.7525, Precision: 0.9765, Recall: 0.5191, F1: 0.6779, ROC AUC: 0.7533, PR AUC: 0.7483
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch: 21 -- Loss: 0.2428, Val_loss: 2.9203, Accuracy: 0.4982, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, ROC AUC: 0.5000, PR AUC: 0.5018
+Epoch: 22 -- Loss: 0.2022, Val_loss: 1.0289, Accuracy: 0.7029, Precision: 0.6328, Recall: 0.9715, F1: 0.7664, ROC AUC: 0.7019, PR AUC: 0.6291
+Epoch: 23 -- Loss: 0.1728, Val_loss: 0.2702, Accuracy: 0.8820, Precision: 0.9942, Recall: 0.7694, F1: 0.8675, ROC AUC: 0.8824, PR AUC: 0.8807
+Epoch: 24 -- Loss: 0.1481, Val_loss: 0.8100, Accuracy: 0.7672, Precision: 0.7076, Recall: 0.9136, F1: 0.7975, ROC AUC: 0.7667, PR AUC: 0.6898
+Epoch: 25 -- Loss: 0.2229, Val_loss: 2.1697, Accuracy: 0.5170, Precision: 1.0000, Recall: 0.0374, F1: 0.0721, ROC AUC: 0.5187, PR AUC: 0.5204
+Epoch: 26 -- Loss: 0.1700, Val_loss: 1.3857, Accuracy: 0.5268, Precision: 1.0000, Recall: 0.0570, F1: 0.1078, ROC AUC: 0.5285, PR AUC: 0.5302
+Epoch: 27 -- Loss: 0.1350, Val_loss: 0.6579, Accuracy: 0.7529, Precision: 0.6711, Recall: 0.9955, F1: 0.8017, ROC AUC: 0.7520, PR AUC: 0.6703
+Epoch: 28 -- Loss: 0.1167, Val_loss: 1.3004, Accuracy: 0.4996, Precision: 0.5080, Recall: 0.0846, F1: 0.1450, ROC AUC: 0.5010, PR AUC: 0.5023
+Epoch: 29 -- Loss: 0.1118, Val_loss: 0.3076, Accuracy: 0.8557, Precision: 0.9950, Recall: 0.7159, F1: 0.8327, ROC AUC: 0.8562, PR AUC: 0.8549
+Epoch: 30 -- Loss: 0.1138, Val_loss: 0.1927, Accuracy: 0.9071, Precision: 0.9946, Recall: 0.8192, F1: 0.8984, ROC AUC: 0.9074, PR AUC: 0.9055
+Epoch: 31 -- Loss: 0.1090, Val_loss: 0.1199, Accuracy: 0.9424, Precision: 0.9931, Recall: 0.8914, F1: 0.9395, ROC AUC: 0.9425, PR AUC: 0.9397
+Epoch: 32 -- Loss: 0.1019, Val_loss: 0.3401, Accuracy: 0.8865, Precision: 0.8762, Recall: 0.9012, F1: 0.8885, ROC AUC: 0.8865, PR AUC: 0.8392
+Epoch: 33 -- Loss: 0.1058, Val_loss: 0.2259, Accuracy: 0.9352, Precision: 0.9920, Recall: 0.8780, F1: 0.9315, ROC AUC: 0.9354, PR AUC: 0.9322
+Epoch: 34 -- Loss: 0.1180, Val_loss: 0.5833, Accuracy: 0.8543, Precision: 0.8130, Recall: 0.9216, F1: 0.8639, ROC AUC: 0.8541, PR AUC: 0.7886
+Epoch: 35 -- Loss: 0.1168, Val_loss: 0.1617, Accuracy: 0.9267, Precision: 0.9959, Recall: 0.8575, F1: 0.9215, ROC AUC: 0.9270, PR AUC: 0.9255
+Epoch: 36 -- Loss: 0.1023, Val_loss: 0.1596, Accuracy: 0.9383, Precision: 0.9777, Recall: 0.8976, F1: 0.9359, ROC AUC: 0.9385, PR AUC: 0.9290
+Epoch: 37 -- Loss: 0.1075, Val_loss: 0.1451, Accuracy: 0.9352, Precision: 0.9939, Recall: 0.8762, F1: 0.9314, ROC AUC: 0.9354, PR AUC: 0.9330
+Epoch: 38 -- Loss: 0.1092, Val_loss: 0.5464, Accuracy: 0.7265, Precision: 0.9904, Recall: 0.4595, F1: 0.6277, ROC AUC: 0.7275, PR AUC: 0.7263
+Epoch: 39 -- Loss: 0.1260, Val_loss: 0.1604, Accuracy: 0.9397, Precision: 0.9853, Recall: 0.8931, F1: 0.9369, ROC AUC: 0.9398, PR AUC: 0.9336
+Epoch: 40 -- Loss: 0.1121, Val_loss: 0.2807, Accuracy: 0.8861, Precision: 0.8298, Recall: 0.9724, F1: 0.8954, ROC AUC: 0.8857, PR AUC: 0.8207
+Epoch: 41 -- Loss: 0.0960, Val_loss: 0.1231, Accuracy: 0.9455, Precision: 0.9691, Recall: 0.9207, F1: 0.9443, ROC AUC: 0.9456, PR AUC: 0.9320
+Epoch: 42 -- Loss: 0.0964, Val_loss: 0.1229, Accuracy: 0.9486, Precision: 0.9818, Recall: 0.9145, F1: 0.9470, ROC AUC: 0.9487, PR AUC: 0.9408
+Epoch: 43 -- Loss: 0.0952, Val_loss: 0.1720, Accuracy: 0.9245, Precision: 0.8865, Recall: 0.9742, F1: 0.9283, ROC AUC: 0.9243, PR AUC: 0.8766
+Epoch: 44 -- Loss: 0.0954, Val_loss: 0.1662, Accuracy: 0.9281, Precision: 0.8930, Recall: 0.9733, F1: 0.9314, ROC AUC: 0.9279, PR AUC: 0.8825
+Epoch: 45 -- Loss: 0.0876, Val_loss: 0.1897, Accuracy: 0.9187, Precision: 0.9958, Recall: 0.8415, F1: 0.9122, ROC AUC: 0.9190, PR AUC: 0.9175
+Epoch: 46 -- Loss: 0.0923, Val_loss: 0.2033, Accuracy: 0.9093, Precision: 0.8577, Recall: 0.9822, F1: 0.9157, ROC AUC: 0.9090, PR AUC: 0.8514
+Epoch: 47 -- Loss: 0.1005, Val_loss: 0.1747, Accuracy: 0.9433, Precision: 0.9882, Recall: 0.8976, F1: 0.9407, ROC AUC: 0.9434, PR AUC: 0.9384
+Epoch: 48 -- Loss: 0.1023, Val_loss: 0.1351, Accuracy: 0.9473, Precision: 0.9827, Recall: 0.9110, F1: 0.9455, ROC AUC: 0.9474, PR AUC: 0.9399
+Epoch: 49 -- Loss: 0.0970, Val_loss: 0.1413, Accuracy: 0.9388, Precision: 0.9881, Recall: 0.8887, F1: 0.9358, ROC AUC: 0.9390, PR AUC: 0.9340
+Epoch: 50 -- Loss: 0.0865, Val_loss: 0.4204, Accuracy: 0.8892, Precision: 0.8277, Recall: 0.9840, F1: 0.8991, ROC AUC: 0.8888, PR AUC: 0.8225
+Accuracy: 0.8892, Precision: 0.8277, Recall: 0.9840, F1: 0.8991, ROC AUC: 0.8888, PR AUC: 0.8225
+Kfold: ======================== 4 ========================
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch: 1 -- Loss: 0.7166, Val_loss: 0.6930, Accuracy: 0.4953, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, ROC AUC: 0.5000, PR AUC: 0.5047
+Epoch: 2 -- Loss: 0.7032, Val_loss: 0.7590, Accuracy: 0.5047, Precision: 0.5047, Recall: 1.0000, F1: 0.6708, ROC AUC: 0.5000, PR AUC: 0.5047
+Epoch: 3 -- Loss: 0.6980, Val_loss: 0.6924, Accuracy: 0.5127, Precision: 0.5117, Recall: 0.7573, F1: 0.6107, ROC AUC: 0.5104, PR AUC: 0.5100
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch: 4 -- Loss: 0.6937, Val_loss: 0.6952, Accuracy: 0.4953, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, ROC AUC: 0.5000, PR AUC: 0.5047
+Epoch: 5 -- Loss: 0.6948, Val_loss: 0.6954, Accuracy: 0.5087, Precision: 0.5078, Recall: 0.8680, F1: 0.6407, ROC AUC: 0.5053, PR AUC: 0.5074
+Epoch: 6 -- Loss: 0.6931, Val_loss: 0.6908, Accuracy: 0.5253, Precision: 0.5403, Recall: 0.3977, F1: 0.4582, ROC AUC: 0.5265, PR AUC: 0.5189
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch: 7 -- Loss: 0.6925, Val_loss: 0.6916, Accuracy: 0.4953, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, ROC AUC: 0.5000, PR AUC: 0.5047
+Epoch: 8 -- Loss: 0.6914, Val_loss: 0.6864, Accuracy: 0.5552, Precision: 0.5456, Recall: 0.7095, F1: 0.6169, ROC AUC: 0.5537, PR AUC: 0.5337
+Epoch: 9 -- Loss: 0.6875, Val_loss: 0.7236, Accuracy: 0.4949, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, ROC AUC: 0.4995, PR AUC: 0.5047
+Epoch: 10 -- Loss: 0.6817, Val_loss: 0.6729, Accuracy: 0.5785, Precision: 0.5803, Recall: 0.5952, F1: 0.5877, ROC AUC: 0.5783, PR AUC: 0.5497
+Epoch: 11 -- Loss: 0.6770, Val_loss: 0.6988, Accuracy: 0.5807, Precision: 0.5510, Recall: 0.9132, F1: 0.6873, ROC AUC: 0.5775, PR AUC: 0.5470
+Epoch: 12 -- Loss: 0.6730, Val_loss: 0.7000, Accuracy: 0.5387, Precision: 0.6008, Recall: 0.2560, F1: 0.3590, ROC AUC: 0.5413, PR AUC: 0.5293
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch: 13 -- Loss: 0.6677, Val_loss: 0.6870, Accuracy: 0.4953, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, ROC AUC: 0.5000, PR AUC: 0.5047
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch: 14 -- Loss: 0.6560, Val_loss: 1.3832, Accuracy: 0.4953, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, ROC AUC: 0.5000, PR AUC: 0.5047
+Epoch: 15 -- Loss: 0.6330, Val_loss: 1.2630, Accuracy: 0.5047, Precision: 0.5047, Recall: 1.0000, F1: 0.6708, ROC AUC: 0.5000, PR AUC: 0.5047
+Epoch: 16 -- Loss: 0.5768, Val_loss: 3.8651, Accuracy: 0.5047, Precision: 0.5047, Recall: 1.0000, F1: 0.6708, ROC AUC: 0.5000, PR AUC: 0.5047
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch: 17 -- Loss: 0.5209, Val_loss: 2.5693, Accuracy: 0.4953, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, ROC AUC: 0.5000, PR AUC: 0.5047
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch: 18 -- Loss: 0.4532, Val_loss: 1.3082, Accuracy: 0.4953, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, ROC AUC: 0.5000, PR AUC: 0.5047
+Epoch: 19 -- Loss: 0.3979, Val_loss: 0.5584, Accuracy: 0.7251, Precision: 0.9462, Recall: 0.4827, F1: 0.6393, ROC AUC: 0.7274, PR AUC: 0.7178
+Epoch: 20 -- Loss: 0.3380, Val_loss: 0.4086, Accuracy: 0.8100, Precision: 0.9632, Recall: 0.6484, F1: 0.7750, ROC AUC: 0.8115, PR AUC: 0.8019
+Epoch: 21 -- Loss: 0.2913, Val_loss: 0.3149, Accuracy: 0.8941, Precision: 0.9735, Recall: 0.8122, F1: 0.8856, ROC AUC: 0.8948, PR AUC: 0.8854
+Epoch: 22 -- Loss: 0.1990, Val_loss: 0.3135, Accuracy: 0.8713, Precision: 0.8421, Recall: 0.9167, F1: 0.8779, ROC AUC: 0.8708, PR AUC: 0.8141
+Epoch: 23 -- Loss: 0.1687, Val_loss: 0.1746, Accuracy: 0.9209, Precision: 0.9288, Recall: 0.9132, F1: 0.9209, ROC AUC: 0.9209, PR AUC: 0.8920
+Epoch: 24 -- Loss: 0.1656, Val_loss: 0.4491, Accuracy: 0.8538, Precision: 0.8075, Recall: 0.9327, F1: 0.8656, ROC AUC: 0.8531, PR AUC: 0.7871
+Epoch: 25 -- Loss: 0.1632, Val_loss: 0.2691, Accuracy: 0.8797, Precision: 0.8354, Recall: 0.9486, F1: 0.8884, ROC AUC: 0.8791, PR AUC: 0.8184
+Epoch: 26 -- Loss: 0.1319, Val_loss: 0.7115, Accuracy: 0.7760, Precision: 0.7018, Recall: 0.9672, F1: 0.8134, ROC AUC: 0.7742, PR AUC: 0.6953
+Epoch: 27 -- Loss: 0.1337, Val_loss: 0.6727, Accuracy: 0.7957, Precision: 0.7393, Recall: 0.9194, F1: 0.8196, ROC AUC: 0.7945, PR AUC: 0.7204
+Epoch: 28 -- Loss: 0.1271, Val_loss: 0.1198, Accuracy: 0.9468, Precision: 0.9893, Recall: 0.9043, F1: 0.9449, ROC AUC: 0.9472, PR AUC: 0.9430
+Epoch: 29 -- Loss: 0.1094, Val_loss: 0.1517, Accuracy: 0.9236, Precision: 0.9018, Recall: 0.9522, F1: 0.9263, ROC AUC: 0.9233, PR AUC: 0.8828
+Epoch: 30 -- Loss: 0.1068, Val_loss: 0.1023, Accuracy: 0.9508, Precision: 0.9951, Recall: 0.9070, F1: 0.9490, ROC AUC: 0.9512, PR AUC: 0.9495
+Epoch: 31 -- Loss: 0.1149, Val_loss: 0.2346, Accuracy: 0.9066, Precision: 0.9492, Recall: 0.8609, F1: 0.9029, ROC AUC: 0.9070, PR AUC: 0.8874
+Epoch: 32 -- Loss: 0.1179, Val_loss: 0.1100, Accuracy: 0.9473, Precision: 0.9990, Recall: 0.8964, F1: 0.9449, ROC AUC: 0.9477, PR AUC: 0.9478
+Epoch: 33 -- Loss: 0.0986, Val_loss: 0.1179, Accuracy: 0.9477, Precision: 1.0000, Recall: 0.8964, F1: 0.9454, ROC AUC: 0.9482, PR AUC: 0.9487
+Epoch: 34 -- Loss: 0.1073, Val_loss: 0.1452, Accuracy: 0.9316, Precision: 0.9665, Recall: 0.8955, F1: 0.9297, ROC AUC: 0.9319, PR AUC: 0.9183
+Epoch: 35 -- Loss: 0.1117, Val_loss: 0.1514, Accuracy: 0.9392, Precision: 0.9930, Recall: 0.8857, F1: 0.9363, ROC AUC: 0.9397, PR AUC: 0.9372
+Epoch: 36 -- Loss: 0.1013, Val_loss: 0.1140, Accuracy: 0.9504, Precision: 0.9942, Recall: 0.9070, F1: 0.9486, ROC AUC: 0.9508, PR AUC: 0.9487
+Epoch: 37 -- Loss: 0.1087, Val_loss: 0.1649, Accuracy: 0.9374, Precision: 0.9396, Recall: 0.9362, F1: 0.9379, ROC AUC: 0.9374, PR AUC: 0.9118
+Epoch: 38 -- Loss: 0.1113, Val_loss: 0.1404, Accuracy: 0.9446, Precision: 0.9818, Recall: 0.9070, F1: 0.9429, ROC AUC: 0.9449, PR AUC: 0.9374
+Epoch: 39 -- Loss: 0.1081, Val_loss: 0.0997, Accuracy: 0.9486, Precision: 0.9669, Recall: 0.9300, F1: 0.9481, ROC AUC: 0.9488, PR AUC: 0.9345
+Epoch: 40 -- Loss: 0.0937, Val_loss: 0.0940, Accuracy: 0.9549, Precision: 0.9742, Recall: 0.9353, F1: 0.9544, ROC AUC: 0.9550, PR AUC: 0.9438
+Epoch: 41 -- Loss: 0.0875, Val_loss: 0.2127, Accuracy: 0.9169, Precision: 0.8681, Recall: 0.9849, F1: 0.9228, ROC AUC: 0.9162, PR AUC: 0.8626
+Epoch: 42 -- Loss: 0.1008, Val_loss: 0.1917, Accuracy: 0.9142, Precision: 0.9747, Recall: 0.8521, F1: 0.9093, ROC AUC: 0.9148, PR AUC: 0.9052
+Epoch: 43 -- Loss: 0.1022, Val_loss: 0.1009, Accuracy: 0.9522, Precision: 0.9776, Recall: 0.9265, F1: 0.9513, ROC AUC: 0.9524, PR AUC: 0.9428
+Epoch: 44 -- Loss: 0.0831, Val_loss: 0.1061, Accuracy: 0.9517, Precision: 0.9514, Recall: 0.9531, F1: 0.9522, ROC AUC: 0.9517, PR AUC: 0.9304
+Epoch: 45 -- Loss: 0.0796, Val_loss: 0.1141, Accuracy: 0.9473, Precision: 0.9362, Recall: 0.9610, F1: 0.9484, ROC AUC: 0.9471, PR AUC: 0.9193
+Epoch: 46 -- Loss: 0.0863, Val_loss: 0.1152, Accuracy: 0.9459, Precision: 0.9337, Recall: 0.9610, F1: 0.9472, ROC AUC: 0.9458, PR AUC: 0.9170
+Epoch: 47 -- Loss: 0.0757, Val_loss: 0.0976, Accuracy: 0.9544, Precision: 0.9639, Recall: 0.9451, F1: 0.9544, ROC AUC: 0.9545, PR AUC: 0.9387
+Epoch: 48 -- Loss: 0.0798, Val_loss: 0.1134, Accuracy: 0.9486, Precision: 0.9495, Recall: 0.9486, F1: 0.9490, ROC AUC: 0.9486, PR AUC: 0.9266
+Epoch: 49 -- Loss: 0.0969, Val_loss: 0.1780, Accuracy: 0.9258, Precision: 0.8937, Recall: 0.9681, F1: 0.9294, ROC AUC: 0.9254, PR AUC: 0.8813
+Epoch: 50 -- Loss: 0.0940, Val_loss: 0.1323, Accuracy: 0.9513, Precision: 0.9636, Recall: 0.9389, F1: 0.9511, ROC AUC: 0.9514, PR AUC: 0.9356
+Accuracy: 0.9513, Precision: 0.9636, Recall: 0.9389, F1: 0.9511, ROC AUC: 0.9514, PR AUC: 0.9356
