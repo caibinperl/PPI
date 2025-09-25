@@ -220,3 +220,70 @@ Epoch: 47 -- Loss: 0.0947, Val_loss: 0.2884, Accuracy: 0.8771, Precision: 0.8042
 Epoch: 48 -- Loss: 0.0964, Val_loss: 0.6910, Accuracy: 0.8100, Precision: 0.7493, Recall: 0.9196, F1: 0.8257, ROC AUC: 0.8123, PR AUC: 0.7284
 Epoch: 49 -- Loss: 0.1091, Val_loss: 0.9259, Accuracy: 0.6741, Precision: 1.0000, Recall: 0.3342, F1: 0.5010, ROC AUC: 0.6671, PR AUC: 0.6601
 Epoch: 50 -- Loss: 0.0887, Val_loss: 0.2491, Accuracy: 0.9222, Precision: 0.9348, Recall: 0.9041, F1: 0.9192, ROC AUC: 0.9218, PR AUC: 0.8921
+Kfold: ======================== 5 ========================
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch: 1 -- Loss: 0.7184, Val_loss: 0.7128, Accuracy: 0.5101, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, ROC AUC: 0.5000, PR AUC: 0.4899
+Epoch: 2 -- Loss: 0.7058, Val_loss: 0.6955, Accuracy: 0.5168, Precision: 0.5053, Recall: 0.6542, F1: 0.5702, ROC AUC: 0.5195, PR AUC: 0.5000
+Epoch: 3 -- Loss: 0.6986, Val_loss: 0.6918, Accuracy: 0.5172, Precision: 0.5105, Recall: 0.3540, F1: 0.4181, ROC AUC: 0.5140, PR AUC: 0.4972
+Epoch: 4 -- Loss: 0.6942, Val_loss: 0.6977, Accuracy: 0.5011, Precision: 0.4947, Recall: 0.8504, F1: 0.6255, ROC AUC: 0.5080, PR AUC: 0.4940
+Epoch: 5 -- Loss: 0.6935, Val_loss: 0.7162, Accuracy: 0.5092, Precision: 0.4000, Recall: 0.0036, F1: 0.0072, ROC AUC: 0.4992, PR AUC: 0.4896
+Epoch: 6 -- Loss: 0.6973, Val_loss: 0.6945, Accuracy: 0.5042, Precision: 0.4961, Recall: 0.7536, F1: 0.5983, ROC AUC: 0.5092, PR AUC: 0.4946
+Epoch: 7 -- Loss: 0.6952, Val_loss: 0.6936, Accuracy: 0.5056, Precision: 0.4967, Recall: 0.6770, F1: 0.5730, ROC AUC: 0.5090, PR AUC: 0.4945
+Epoch: 8 -- Loss: 0.6947, Val_loss: 0.6942, Accuracy: 0.5042, Precision: 0.4959, Recall: 0.7254, F1: 0.5891, ROC AUC: 0.5086, PR AUC: 0.4943
+Epoch: 9 -- Loss: 0.6933, Val_loss: 0.6921, Accuracy: 0.5177, Precision: 0.5075, Recall: 0.5265, F1: 0.5168, ROC AUC: 0.5178, PR AUC: 0.4992
+Epoch: 10 -- Loss: 0.6936, Val_loss: 0.6931, Accuracy: 0.5145, Precision: 0.5035, Recall: 0.6533, F1: 0.5687, ROC AUC: 0.5173, PR AUC: 0.4988
+Epoch: 11 -- Loss: 0.6927, Val_loss: 0.6929, Accuracy: 0.5065, Precision: 0.4971, Recall: 0.6296, F1: 0.5556, ROC AUC: 0.5089, PR AUC: 0.4945
+Epoch: 12 -- Loss: 0.6925, Val_loss: 0.6955, Accuracy: 0.4859, Precision: 0.4854, Recall: 0.8212, F1: 0.6102, ROC AUC: 0.4925, PR AUC: 0.4862
+Epoch: 13 -- Loss: 0.6925, Val_loss: 0.6934, Accuracy: 0.5123, Precision: 0.5019, Recall: 0.6150, F1: 0.5527, ROC AUC: 0.5143, PR AUC: 0.4973
+Epoch: 14 -- Loss: 0.6923, Val_loss: 0.6973, Accuracy: 0.4899, Precision: 0.4899, Recall: 1.0000, F1: 0.6577, ROC AUC: 0.5000, PR AUC: 0.4899
+Epoch: 15 -- Loss: 0.6896, Val_loss: 0.7116, Accuracy: 0.4899, Precision: 0.4899, Recall: 1.0000, F1: 0.6577, ROC AUC: 0.5000, PR AUC: 0.4899
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch: 16 -- Loss: 0.6841, Val_loss: 1.1486, Accuracy: 0.5101, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, ROC AUC: 0.5000, PR AUC: 0.4899
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch: 17 -- Loss: 0.6715, Val_loss: 9.0006, Accuracy: 0.5101, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, ROC AUC: 0.5000, PR AUC: 0.4899
+Epoch: 18 -- Loss: 0.6505, Val_loss: 52.4306, Accuracy: 0.4899, Precision: 0.4899, Recall: 1.0000, F1: 0.6577, ROC AUC: 0.5000, PR AUC: 0.4899
+Epoch: 19 -- Loss: 0.6002, Val_loss: 3.8105, Accuracy: 0.4899, Precision: 0.4899, Recall: 1.0000, F1: 0.6577, ROC AUC: 0.5000, PR AUC: 0.4899
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch: 20 -- Loss: 0.5371, Val_loss: 23.7510, Accuracy: 0.5101, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, ROC AUC: 0.5000, PR AUC: 0.4899
+Epoch: 21 -- Loss: 0.4716, Val_loss: 1.4018, Accuracy: 0.5101, Precision: 0.5000, Recall: 0.9745, F1: 0.6609, ROC AUC: 0.5192, PR AUC: 0.4997
+Epoch: 22 -- Loss: 0.4228, Val_loss: 52.4306, Accuracy: 0.4899, Precision: 0.4899, Recall: 1.0000, F1: 0.6577, ROC AUC: 0.5000, PR AUC: 0.4899
+Epoch: 23 -- Loss: 0.3764, Val_loss: 40.5252, Accuracy: 0.4899, Precision: 0.4899, Recall: 1.0000, F1: 0.6577, ROC AUC: 0.5000, PR AUC: 0.4899
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch: 24 -- Loss: 0.3361, Val_loss: 3.8857, Accuracy: 0.5101, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, ROC AUC: 0.5000, PR AUC: 0.4899
+Epoch: 25 -- Loss: 0.3011, Val_loss: 0.8401, Accuracy: 0.5186, Precision: 0.5046, Recall: 0.9599, F1: 0.6614, ROC AUC: 0.5273, PR AUC: 0.5040
+Epoch: 26 -- Loss: 0.2743, Val_loss: 52.4306, Accuracy: 0.4899, Precision: 0.4899, Recall: 1.0000, F1: 0.6577, ROC AUC: 0.5000, PR AUC: 0.4899
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch: 27 -- Loss: 0.2552, Val_loss: 1.8541, Accuracy: 0.5101, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, ROC AUC: 0.5000, PR AUC: 0.4899
+Epoch: 28 -- Loss: 0.2271, Val_loss: 2.8936, Accuracy: 0.4899, Precision: 0.4899, Recall: 1.0000, F1: 0.6577, ROC AUC: 0.5000, PR AUC: 0.4899
+Epoch: 29 -- Loss: 0.2101, Val_loss: 2.5955, Accuracy: 0.5418, Precision: 0.5181, Recall: 0.9270, F1: 0.6647, ROC AUC: 0.5494, PR AUC: 0.5160
+Epoch: 30 -- Loss: 0.1896, Val_loss: 0.5727, Accuracy: 0.7497, Precision: 0.9873, Recall: 0.4954, F1: 0.6598, ROC AUC: 0.7447, PR AUC: 0.7363
+Epoch: 31 -- Loss: 0.1810, Val_loss: 3.7155, Accuracy: 0.4899, Precision: 0.4899, Recall: 1.0000, F1: 0.6577, ROC AUC: 0.5000, PR AUC: 0.4899
+Epoch: 32 -- Loss: 0.1728, Val_loss: 0.9044, Accuracy: 0.4899, Precision: 0.4899, Recall: 1.0000, F1: 0.6577, ROC AUC: 0.5000, PR AUC: 0.4899
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch: 33 -- Loss: 0.1616, Val_loss: 6.0170, Accuracy: 0.5101, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, ROC AUC: 0.5000, PR AUC: 0.4899
+Epoch: 34 -- Loss: 0.1582, Val_loss: 6.7477, Accuracy: 0.4899, Precision: 0.4899, Recall: 1.0000, F1: 0.6577, ROC AUC: 0.5000, PR AUC: 0.4899
+Epoch: 35 -- Loss: 0.1517, Val_loss: 52.4306, Accuracy: 0.4899, Precision: 0.4899, Recall: 1.0000, F1: 0.6577, ROC AUC: 0.5000, PR AUC: 0.4899
+Epoch: 36 -- Loss: 0.1478, Val_loss: 0.5164, Accuracy: 0.6214, Precision: 0.5646, Recall: 0.9927, F1: 0.7198, ROC AUC: 0.6287, PR AUC: 0.5641
+Epoch: 37 -- Loss: 0.1353, Val_loss: 5.1865, Accuracy: 0.4899, Precision: 0.4899, Recall: 1.0000, F1: 0.6577, ROC AUC: 0.5000, PR AUC: 0.4899
+Epoch: 38 -- Loss: 0.1320, Val_loss: 34.3991, Accuracy: 0.4899, Precision: 0.4899, Recall: 1.0000, F1: 0.6577, ROC AUC: 0.5000, PR AUC: 0.4899
+Epoch: 39 -- Loss: 0.1204, Val_loss: 52.4306, Accuracy: 0.4899, Precision: 0.4899, Recall: 1.0000, F1: 0.6577, ROC AUC: 0.5000, PR AUC: 0.4899
+Epoch: 40 -- Loss: 0.1218, Val_loss: 1.9043, Accuracy: 0.4864, Precision: 0.4881, Recall: 0.9900, F1: 0.6538, ROC AUC: 0.4963, PR AUC: 0.4881
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch: 41 -- Loss: 0.1306, Val_loss: 19.3960, Accuracy: 0.5101, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, ROC AUC: 0.5000, PR AUC: 0.4899
+Epoch: 42 -- Loss: 0.1292, Val_loss: 28.5753, Accuracy: 0.4899, Precision: 0.4899, Recall: 1.0000, F1: 0.6577, ROC AUC: 0.5000, PR AUC: 0.4899
+Epoch: 43 -- Loss: 0.1201, Val_loss: 52.4306, Accuracy: 0.4899, Precision: 0.4899, Recall: 1.0000, F1: 0.6577, ROC AUC: 0.5000, PR AUC: 0.4899
+Epoch: 44 -- Loss: 0.1142, Val_loss: 52.4306, Accuracy: 0.4899, Precision: 0.4899, Recall: 1.0000, F1: 0.6577, ROC AUC: 0.5000, PR AUC: 0.4899
+Epoch: 45 -- Loss: 0.1229, Val_loss: 52.4306, Accuracy: 0.4899, Precision: 0.4899, Recall: 1.0000, F1: 0.6577, ROC AUC: 0.5000, PR AUC: 0.4899
+Epoch: 46 -- Loss: 0.1194, Val_loss: 46.5854, Accuracy: 0.4899, Precision: 0.4899, Recall: 1.0000, F1: 0.6577, ROC AUC: 0.5000, PR AUC: 0.4899
+Epoch: 47 -- Loss: 0.1079, Val_loss: 0.9429, Accuracy: 0.9361, Precision: 0.9847, Recall: 0.8832, F1: 0.9312, ROC AUC: 0.9350, PR AUC: 0.9270
+Epoch: 48 -- Loss: 0.1008, Val_loss: 0.6685, Accuracy: 0.6308, Precision: 0.5706, Recall: 0.9954, F1: 0.7254, ROC AUC: 0.6379, PR AUC: 0.5702
+Epoch: 49 -- Loss: 0.0954, Val_loss: 17.0206, Accuracy: 0.5284, Precision: 0.5104, Recall: 0.9206, F1: 0.6567, ROC AUC: 0.5361, PR AUC: 0.5087
+Epoch: 50 -- Loss: 0.0974, Val_loss: 34.6221, Accuracy: 0.5060, Precision: 0.4979, Recall: 0.9626, F1: 0.6563, ROC AUC: 0.5150, PR AUC: 0.4976
